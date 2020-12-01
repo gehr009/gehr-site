@@ -36,29 +36,32 @@
       >
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
-      <v-btn
+      <!-- <v-btn
         icon
         @click.stop="clipped = !clipped"
       >
         <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
+      </v-btn> -->
+      <!-- <v-btn
         icon
         @click.stop="fixed = !fixed"
       >
         <v-icon>mdi-minus</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
+      </v-btn> -->
+      <v-toolbar-title>{{$t('pages.home')}}</v-toolbar-title>
       <v-spacer />
-      <v-btn
+      <!-- <LangNavigation /> -->
+      <LangSwitcher />
+      <!-- <v-btn
         icon
         @click.stop="rightDrawer = !rightDrawer"
       >
         <v-icon>mdi-menu</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-app-bar>
     <v-main>
       <v-container>
+        <!-- <h1>{{ $t('hello') }}</h1> -->
         <nuxt />
       </v-container>
     </v-main>
@@ -105,6 +108,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-home',
+          title: 'home',
+          to: '/home'
         }
       ],
       miniVariant: false,

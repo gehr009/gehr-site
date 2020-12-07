@@ -7,21 +7,21 @@
       </div>
       <v-card>
         <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+          Добро пожаловать в шаблон Vuetify + Nuxt.js
         </v-card-title>
         <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
+          <p>Vuetify - это компонентный фреймворк прогрессивного дизайна материалов для Vue.js. Он был разработан, чтобы дать разработчикам возможность создавать потрясающие приложения.</p>
           <p>
-            For more information on Vuetify, check out the <a
+              Для получения дополнительной информации о Vuetify ознакомьтесь с <a
               href="https://vuetifyjs.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              documentation
+              документацией
             </a>.
           </p>
           <p>
-            If you have questions, please join the official <a
+              Если у вас есть вопросы, присоединяйтесь к официальному <a
               href="https://chat.vuetifyjs.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -31,16 +31,16 @@
             </a>.
           </p>
           <p>
-            Find a bug? Report it on the github <a
+              Нашли ошибку? Сообщите об этом на github <a
               href="https://github.com/vuetifyjs/vuetify/issues"
               target="_blank"
               rel="noopener noreferrer"
               title="contribute"
             >
-              issue board
+              Перейти на github
             </a>.
           </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
+          <p>Спасибо за разработку с Vuetify, и я с нетерпением жду возможности предложить больше интересных функций в будущем.</p>
           <div class="text-xs-right">
             <em><small>&mdash; John Leider</small></em>
           </div>
@@ -50,7 +50,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            Nuxt Documentation
+            Nuxt Документация
           </a>
           <br>
           <a
@@ -68,7 +68,7 @@
             nuxt
             to="/inspire"
           >
-            Continue
+            Продолжить
           </v-btn>
         </v-card-actions>
       </v-card>
